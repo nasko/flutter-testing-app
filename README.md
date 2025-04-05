@@ -1,16 +1,27 @@
-# testing_app
+# How to test a Flutter app
 
-A new Flutter project.
+[How to test a Flutter app](https://codelabs.developers.google.com/codelabs/flutter-app-testing) | Flutter Codelabs
 
-## Getting Started
+In this codelab, you'll build and test a simple Flutter app. The app will use the Provider package 
+  for managing state.
 
-This project is a starting point for a Flutter application.
+## What you'll learn
 
-A few resources to get you started if this is your first Flutter project:
+- How to create widget tests using the widget testing framework
+- How to create an integration test to test the app's UI and performance using the integration_test library
+- How to test data classes (providers) with the help of unit tests
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## What you'll build
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In this codelab, you'll start by building a simple application with a list of items. We provide the source code for you so you can get right to the testing. The app supports the following operations:
+
+- Adding the items to favorites
+- Viewing the list of favorites
+- Removing items from the favorites list
+
+
+Once the app is complete, you will write the following tests:
+
+- Unit tests to validate the add and remove operations
+- Widgets tests for the home and favorites pages
+- UI and performance tests for the entire app using integration tests
